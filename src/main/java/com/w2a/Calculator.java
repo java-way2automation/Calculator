@@ -22,6 +22,12 @@ public class Calculator {
 		int result = input1 / input2;
 		return result;
 	}
+	
+	public int getMul()
+	{
+		int result = input1 * input2;
+		return result;
+	}
 
 	
 }

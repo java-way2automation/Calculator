@@ -22,6 +22,13 @@ public class CalculatorTest {
 		c.getDiv();
 	}
 	
+	@Test
+	public void testMul()
+	{
+		c.setInput(12, 89);
+		c.getMul();
+	}
+	
 	
 	
 	
