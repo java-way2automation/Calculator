@@ -30,6 +30,13 @@ public class CalculatorTest {
 	}
 	
 	
+	@Test
+	public void testDiff()
+	{
+		c.setInput(12, 89);
+		c.getDiff();
+	}
+	
 	
 	
 }

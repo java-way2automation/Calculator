@@ -1,5 +1,17 @@
 package com.w2a;
 
+/*
+ * 
+ * Integration
+ * 
+ * TFS --> source code managment + version controlling + continous Integration + test case management + 
+ * 
+ * ALM (application lifecycle management) --> Visual studio online = MTM + VSTP 
+ * 
+ * Git + Git hub + CI(jenkins) + Eclipse + Junit + Maven
+ * 
+ */
+
 public class Calculator {
 	
 	int input1;
@@ -26,6 +38,12 @@ public class Calculator {
 	public int getMul()
 	{
 		int result = input1 * input2;
+		return result;
+	}
+	
+	public int getDiff()
+	{
+		int result = input1 - input2;
 		return result;
 	}
 
