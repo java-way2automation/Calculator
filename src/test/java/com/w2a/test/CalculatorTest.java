@@ -18,7 +18,7 @@ public class CalculatorTest {
 	@Test
 	public void testDiv()
 	{
-		c.setInput(12, 89);
+		c.setInput(12, 0);
 		c.getDiv();
 	}
 	
